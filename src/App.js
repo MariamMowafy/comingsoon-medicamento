@@ -36,7 +36,7 @@ function App() {
         <h1 className={isTabletOrMobile ? "text-small" : "text-normal"}>
           Coming Soon
         </h1>
-        <h3 className={isTabletOrMobile ? "text-small" : "text-normal"}>
+        <h3 className={isTabletOrMobile ? "text-sosmall" : "text-normal"}>
           Medicamento Site Is Nearly Ready
         </h3>
         <div className="progress-bar">
