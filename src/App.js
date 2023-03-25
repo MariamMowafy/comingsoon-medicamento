@@ -30,9 +30,17 @@ function App() {
         <span></span>
       </div>
       <div className="container">
-        <img src={logo} alt="Logo" />
-        <h1>Coming Soon</h1>
-        <h3>Medicamento Site Is Nearly Ready</h3>
+        <img
+          src={logo}
+          alt="Logo"
+          className={isTabletOrMobile ? "logo-small" : "logo-normal"}
+        />
+        <h1 className={isTabletOrMobile ? "text-small" : "text-normal"}>
+          Coming Soon
+        </h1>
+        <h3 className={isTabletOrMobile ? "text-small" : "text-normal"}>
+          Medicamento Site Is Nearly Ready
+        </h3>
         <div className="progress-bar">
           <span></span>
         </div>
